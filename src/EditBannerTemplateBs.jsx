@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import adsPoster from './Assest';
 
-function EditMenu({ setEdit, item, updatedFun, index }) {
+function EditBannerTemplateBs({ setEdit, item, updatedFun, index }) {
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
   const [selectedThumbnail, setSelectedThumbnail] = useState('');
@@ -73,4 +73,4 @@ function EditMenu({ setEdit, item, updatedFun, index }) {
   );
 }
 
-export default EditMenu;
+export default EditBannerTemplateBs;

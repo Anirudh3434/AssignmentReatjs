@@ -2,8 +2,8 @@ import { useState } from 'react';
 import adsPoster from './Assest'; 
 import './App.css'; 
 
-import EditMenu from './EditMenu';
-import EditBannerTemplateBs from './Component/EditBannerTemplateBs';
+import EditMenu from './EditBannerTemplateBs';
+import BannerImageComp from './Component/BannerImageComp';
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className='container'>
-       <EditBannerTemplateBs/>
+       <BannerImageComp/>
        </div>
   );
 }

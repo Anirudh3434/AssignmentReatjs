@@ -5,8 +5,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow-x: hidden;
-  overflow-y: scroll;
+ 
   background-color: #61c1ea;
 }
 
@@ -342,11 +341,17 @@ top: 4%;
     font-size: 30px;
   }
 
+  .cardTitle-1{
+    font-size: 2opx;
+  
+  }
+
   .cardTitle-3 {
     text-align: center;
     color: white;
     font-size: 40px;
     margin-left: 20px;
+    margin-top: 15px;
   }
 
   .cardDesc-0, .cardDesc-1, .cardDesc-2, .cardDesc-3 {
@@ -367,7 +372,7 @@ top: 4%;
   .cardCta-3 {
     margin-top: 10px;
     color: black;
-    margin-top: 70px;
+    margin-top: 10px;
     font-size: 12px;
     background-color: rgb(60, 133, 222);
     padding: 15px;
@@ -375,6 +380,14 @@ top: 4%;
     margin-right: 20px;
     color: white;
   }
+.preview-image{
+   width: 200px;
+   height: 150px;
+}
+
+.box{
+  margin-right: 30px;
+}
 
   .cardImage-0 {
     width: 344px;
@@ -394,6 +407,13 @@ top: 4%;
     width: 300px;
     height: 300px;
   }
+.menu-container{
+  width: 100%;
+}
+
+.box{
+  width: 80%;
+}
 
   .cardImage-3 {
     width: 250px;

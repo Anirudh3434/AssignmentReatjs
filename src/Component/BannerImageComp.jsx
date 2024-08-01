@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import adsPoster from '../Assest';
 import { MdEdit } from 'react-icons/md';
-import EditMenu from '../EditMenu';
+import EditBannerTemplateBs from '../EditBannerTemplateBs';
 
-function EditBannerTemplateBs() {
+function BannerImageComp() {
   const [edit, setEdit] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
   const [selectedItemIndex, setSelectedItemIndex] = useState(null);
@@ -55,7 +55,7 @@ function EditBannerTemplateBs() {
       })}
 
       {edit && selectedItem && (
-        <EditMenu
+        <EditBannerTemplateBs
           setEdit={setEdit}
           item={selectedItem}
           updatedFun={updatedFun}
@@ -66,4 +66,4 @@ function EditBannerTemplateBs() {
   );
 }
 
-export default EditBannerTemplateBs;
+export default BannerImageComp;
